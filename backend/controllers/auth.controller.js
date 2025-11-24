@@ -7,6 +7,7 @@ export const signup = async (req, res) => {
     if (userExists) {
         return res.status(400).json({ message: "User already exists" });
     }
+    const user = await User.create({ name, email, password });
 };
 
 export const login = async (req, res) => {
