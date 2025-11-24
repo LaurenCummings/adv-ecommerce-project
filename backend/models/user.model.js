@@ -43,6 +43,12 @@ const User = mongoose.model("User", userSchema);
 
 userSchema.pre("save", async function (next) {
     if (!this.isModified("password")) return next();
+
+    try {
+        const salt = await bcrypt.genSalt(10);
+    } catch (error) {
+        
+    }
 })
 
 export default User;
