@@ -8,5 +8,3 @@ export const redis = new Redis({
     token: process.env.UPSTASH_REDIS_REST_TOKEN,
 });
 
-await redis.set("foo", "bar");
-await redis.get("foo");
