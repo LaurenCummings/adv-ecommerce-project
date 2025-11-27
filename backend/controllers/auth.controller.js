@@ -18,6 +18,12 @@ const storeRefreshToken = async(userId, refreshToken) => {
     await redis.set(`refresh_token:${userId}`, refreshToken, "EX", 7*24*60*60)
 }
 
+const setCookies = (res, accessToken, refreshToken) => {
+    res.cookie("accessToken", accessToken, {
+        httpOnly: true, // prevent XSS attacks
+    })
+}
+
 export const signup = async (req, res) => {
     const { email, password, name } = req.body;
     try {
@@ -31,6 +37,8 @@ export const signup = async (req, res) => {
         // authenticate
         const { accessToken, refreshToken } = generateTokens(user._id)
         await storeRefreshToken(user._id, refreshToken);
+
+        // setCookies(res, accessToken, refreshToken);
 
         res.status(201).json({ user, message: "User created successfully" });        
     } catch (error) {
