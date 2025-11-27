@@ -1,3 +1,4 @@
+import { redis } from "../lib/redis.js";
 import User from "../models/user.model.js";
 import jwt from "jsonwebtoken";
 
@@ -12,6 +13,10 @@ const generateTokens = (userId) => {
 
     return { accessToken, refreshToken }
 }
+
+// const storeRefreshToken = async(userId, refreshToken) => {
+
+// }
 
 export const signup = async (req, res) => {
     const { email, password, name } = req.body;
