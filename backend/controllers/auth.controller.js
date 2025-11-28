@@ -77,6 +77,7 @@ export const logout = async (req, res) => {
 
         res.clearCookie("accessToken");
         res.clearCookie("refreshToken");
+        res.json({ message: "Logged out successfully" });
     } catch (error) {
 
     }
