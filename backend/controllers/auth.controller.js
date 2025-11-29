@@ -72,6 +72,7 @@ export const login = async (req, res) => {
             const {accessToken, refreshToken } = generateTokens(user._id);
 
             await storeRefreshToken(user._id, refreshToken);
+            setCookies(res, accessToken, refreshToken);
         }
     } catch (error) {
         
