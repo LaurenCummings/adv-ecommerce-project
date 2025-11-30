@@ -131,6 +131,8 @@ export const refreshToken = async (req, res) => {
             sameSite: "strict",
             maxAge: 15 * 60 * 1000,
         });
+
+        res.json({ message: "Token refreshed successfully" });
     } catch (error) {
 
     }
