@@ -110,8 +110,8 @@ export const logout = async (req, res) => {
 // this will refresh the access token
 export const refreshToken = async (req, res) => {
     try {
-
+        const refreshToken = req.cookies.refreshToken;
     } catch (error) {
-        
+
     }
 }
