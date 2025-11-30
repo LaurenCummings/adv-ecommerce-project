@@ -117,6 +117,7 @@ export const refreshToken = async (req, res) => {
         }
 
         const decoded = jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET);
+        const storedToken = await redis.get(`refresh_token:${decoded.userId}`);
     } catch (error) {
 
     }
