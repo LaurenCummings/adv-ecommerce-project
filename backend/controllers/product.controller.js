@@ -5,6 +5,6 @@ export const getAllProducts = async (req, res) => {
         const products = await Product.find({}); // find all products
         res.json({ products });
     } catch (error) {
-
+        console.log("Error in getAllProducts controller", error.message);
     }
 };
