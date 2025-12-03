@@ -22,5 +22,6 @@ export const protectRoute = async (req, res, next) => {
 
     } catch (error) {
         console.log("Error in protectRoute middlware", error.message);
+        return res.status(401).json({ message: "Unauthorized - Invalid access token" });
     }
 }
