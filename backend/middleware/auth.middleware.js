@@ -5,6 +5,8 @@ export const protectRoute = (req, res, next) => {
         if (!accessToken) {
             return res.status(401).json({ message: "Unauthorized - No access token provided" });
         }
+
+        const decoded = jwt.verify(accessToken, process.env.ACCESS_TOKEN_SECRET);
     } catch (error) {
 
     }
