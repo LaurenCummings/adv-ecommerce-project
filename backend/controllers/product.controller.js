@@ -1,1 +1,7 @@
-export const getAllProducts = async (req, res) => {};
+export const getAllProducts = async (req, res) => {
+    try {
+
+    } catch (error) {
+        
+    }
+};
