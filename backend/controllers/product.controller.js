@@ -30,6 +30,6 @@ export const getFeaturedProducts = async (req, res) => {
         
         res.json(featuredProducts);
     } catch (error) {
-
+        console.log("Error in getFeaturedProducts controller", error.message);
     }
 };
