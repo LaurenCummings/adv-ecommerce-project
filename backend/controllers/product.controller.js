@@ -31,5 +31,6 @@ export const getFeaturedProducts = async (req, res) => {
         res.json(featuredProducts);
     } catch (error) {
         console.log("Error in getFeaturedProducts controller", error.message);
+        res.status(500).json({ message: "Server error", error: error.message });
     }
 };
