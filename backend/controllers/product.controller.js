@@ -19,6 +19,8 @@ export const getFeaturedProducts = async (req, res) => {
         }
 
         // if not in redis, fetch from mongodb
+        // .lean() returns a plain js object instead of a mongodb document
+        // which is good for performance
         featuredProducts = await Product.find({ isFeatured: true }).lean();
 
         if (!featuredProducts) {
