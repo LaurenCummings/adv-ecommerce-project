@@ -24,6 +24,9 @@ export const getFeaturedProducts = async (req, res) => {
         if (!featuredProducts) {
             return res.status(404).json({ message: "No featured products found" });
         }
+
+        // store in redis for future quick access
+        await redis.set("featured_products", JSON.stringify(featuredProducts));
     } catch (error) {
 
     }
