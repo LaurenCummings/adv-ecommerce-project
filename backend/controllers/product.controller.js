@@ -11,5 +11,9 @@ export const getAllProducts = async (req, res) => {
 };
 
 export const getFeaturedProducts = async (req, res) => {
-    
+    try {
+
+    } catch (error) {
+        
+    }
 };
