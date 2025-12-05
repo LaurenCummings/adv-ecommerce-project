@@ -14,6 +14,9 @@ export const getAllProducts = async (req, res) => {
 export const getFeaturedProducts = async (req, res) => {
     try {
         let featuredProducts = await redis.get("featured_products");
+        if (featuredProducts) {
+            return res.json(JSON.parse(featuredProducts));
+        }
     } catch (error) {
 
     }
