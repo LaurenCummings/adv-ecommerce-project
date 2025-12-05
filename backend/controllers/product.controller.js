@@ -1,3 +1,4 @@
+import { redis } from "../lib/redis.js";
 import Product from "../models/product.model.js";
 
 export const getAllProducts = async (req, res) => {
@@ -12,8 +13,8 @@ export const getAllProducts = async (req, res) => {
 
 export const getFeaturedProducts = async (req, res) => {
     try {
-
+        // let featuredProducts = await redis.get("featured_products");
     } catch (error) {
-        
+
     }
 };
