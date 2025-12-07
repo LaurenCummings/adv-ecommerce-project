@@ -38,5 +38,9 @@ export const getFeaturedProducts = async (req, res) => {
 };
 
 export const createProduct = async (req, res) => {
-    
+    try {
+
+    } catch (error) {
+        
+    }
 }
