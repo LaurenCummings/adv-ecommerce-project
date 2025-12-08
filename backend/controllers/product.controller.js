@@ -47,6 +47,14 @@ export const createProduct = async (req, res) => {
         if (image) {
             cloudinaryResponse = await cloudinary.uploader.upload(image, {folder: "products"});
         }
+        
+        const product = await Product.create({
+            name,
+            description,
+            price,
+            image: cloudinaryResponse?.secure_url ? cloudinaryResponse.secure_url : "",
+            caterogy
+        })
     } catch (error) {
 
     }
