@@ -80,6 +80,8 @@ export const deleteProduct = async (req, res) => {
         } catch (error) {
 
         }
+
+        await Product.findByIdAndDelete(req.params.id);
     } catch (error) {
 
     }
