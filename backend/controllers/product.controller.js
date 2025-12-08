@@ -55,6 +55,8 @@ export const createProduct = async (req, res) => {
             image: cloudinaryResponse?.secure_url ? cloudinaryResponse.secure_url : "",
             caterogy
         })
+
+        res.status(201).json(product);
     } catch (error) {
 
     }
