@@ -42,6 +42,10 @@ export const createProduct = async (req, res) => {
         const { name, description, price, image, caterogy } = req.body;
 
         let cloudinaryResponse = null;
+
+        if (image) {
+            await cloudinary
+        }
     } catch (error) {
 
     }
