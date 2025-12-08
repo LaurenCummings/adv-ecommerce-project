@@ -84,5 +84,6 @@ export const deleteProduct = async (req, res) => {
         await Product.findByIdAndDelete(req.params.id);
     } catch (error) {
         console.log("Error in deleteProduct controller", error.message);
+        res.status(500).json({ message: "Server error", error: error.message });
     }
 };
