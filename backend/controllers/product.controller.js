@@ -61,4 +61,8 @@ export const createProduct = async (req, res) => {
         console.log("Error in createProduct controller", error.message);
         res.status(500).json({ message: "Server error", error: error.message });
     }
-}
+};
+
+export const deleteProduct = async (req, res) => {
+
+};
