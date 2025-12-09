@@ -89,5 +89,9 @@ export const deleteProduct = async (req, res) => {
 };
 
 export const getRecommendedProducts = async (req, res) => {
+    try {
 
+    } catch (error) {
+        
+    }
 };
