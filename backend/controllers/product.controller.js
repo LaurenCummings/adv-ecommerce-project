@@ -87,3 +87,7 @@ export const deleteProduct = async (req, res) => {
         res.status(500).json({ message: "Server error", error: error.message });
     }
 };
+
+export const getRecommendedProducts = async (req, res) => {
+
+};
