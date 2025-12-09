@@ -104,6 +104,8 @@ export const getRecommendedProducts = async (req, res) => {
                 }
             }
         ])
+
+        res.json(products);
     } catch (error) {
 
     }
