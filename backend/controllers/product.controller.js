@@ -114,8 +114,8 @@ export const getRecommendedProducts = async (req, res) => {
 
 export const getProductsByCategory = async (req, res) => {
     try {
-
+        const products = await Product.find({ category });
     } catch (error) {
-        
+
     }
 };
