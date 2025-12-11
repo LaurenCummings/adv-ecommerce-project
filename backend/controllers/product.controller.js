@@ -113,5 +113,9 @@ export const getRecommendedProducts = async (req, res) => {
 };
 
 export const getProductsByCategory = async (req, res) => {
+    try {
 
+    } catch (error) {
+        
+    }
 };
