@@ -127,6 +127,7 @@ export const toggleFeaturedProduct = async (req, res) => {
         const product = await Product.findById(req.params.id);
         if (product) {
             product.isFeatured = !product.isFeatured;
+            const updatedProduct = await product.save();
         }
     } catch (error) {
 
