@@ -146,6 +146,6 @@ async function updateFeaturedProductsCache() {
         const featuredProducts = await Product.find({ isFeatured: true }).lean();
         await redis.set("featured_products", JSON.stringify(featuredProducts));
     } catch (error) {
-
+        console.log("error in update cache function");
     }
 };
