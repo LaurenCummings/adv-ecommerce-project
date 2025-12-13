@@ -135,5 +135,6 @@ export const toggleFeaturedProduct = async (req, res) => {
         }
     } catch (error) {
         console.log("Error in toggleFeaturedProduct controller", error.message);
+        res.status(500).json({ message: "Server error", error: error.message });
     }
 };
