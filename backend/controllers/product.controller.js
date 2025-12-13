@@ -138,3 +138,7 @@ export const toggleFeaturedProduct = async (req, res) => {
         res.status(500).json({ message: "Server error", error: error.message });
     }
 };
+
+async function updateFeaturedProductCache() {
+
+};
