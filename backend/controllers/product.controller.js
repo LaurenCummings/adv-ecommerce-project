@@ -123,5 +123,9 @@ export const getProductsByCategory = async (req, res) => {
 };
 
 export const toggleFeaturedProduct = async (req, res) => {
+    try {
 
+    } catch (error) {
+        
+    }
 };
