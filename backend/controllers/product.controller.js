@@ -134,6 +134,6 @@ export const toggleFeaturedProduct = async (req, res) => {
             res.status(404).json({ message: "Product not found" });
         }
     } catch (error) {
-
+        console.log("Error in toggleFeaturedProduct controller", error.message);
     }
 };
