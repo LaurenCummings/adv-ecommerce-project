@@ -128,7 +128,7 @@ export const toggleFeaturedProduct = async (req, res) => {
         if (product) {
             product.isFeatured = !product.isFeatured;
             const updatedProduct = await product.save();
-            // await updateFeaturedProductCache();
+            // await updateFeaturedProductsCache();
             res.json(updatedProduct);
         } else {
             res.status(404).json({ message: "Product not found" });
@@ -139,6 +139,6 @@ export const toggleFeaturedProduct = async (req, res) => {
     }
 };
 
-async function updateFeaturedProductCache() {
+async function updateFeaturedProductsCache() {
 
 };
