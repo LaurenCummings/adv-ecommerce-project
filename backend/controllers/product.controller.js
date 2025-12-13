@@ -141,8 +141,10 @@ export const toggleFeaturedProduct = async (req, res) => {
 
 async function updateFeaturedProductsCache() {
     try {
+        // the lean() method is used to return plain JavaScript objects instead of full Mongoose documents. This can significantly improve performance
 
+        const featuredProducts = await Product.find({ isFeatured: true }).lean();
     } catch (error) {
-        
+
     }
 };
