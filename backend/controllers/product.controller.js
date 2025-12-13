@@ -124,8 +124,8 @@ export const getProductsByCategory = async (req, res) => {
 
 export const toggleFeaturedProduct = async (req, res) => {
     try {
-
+        const product = await Product.findById(req.params.id);
     } catch (error) {
-        
+
     }
 };
