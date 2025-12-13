@@ -130,6 +130,8 @@ export const toggleFeaturedProduct = async (req, res) => {
             const updatedProduct = await product.save();
             // await updateFeaturedProductCache();
             res.json(updatedProduct);
+        } else {
+            res.status(404).json({ message: "Product not found" });
         }
     } catch (error) {
 
