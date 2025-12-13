@@ -140,5 +140,9 @@ export const toggleFeaturedProduct = async (req, res) => {
 };
 
 async function updateFeaturedProductsCache() {
+    try {
 
+    } catch (error) {
+        
+    }
 };
