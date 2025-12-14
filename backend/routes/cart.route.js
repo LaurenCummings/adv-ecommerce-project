@@ -4,3 +4,5 @@ import { addToCart } from "../controllers/cart.controller.js";
 const router = express.Router();
 
 router.post("/", addToCart);
+
+export default router;
