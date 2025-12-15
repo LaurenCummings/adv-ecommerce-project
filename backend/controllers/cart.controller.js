@@ -9,6 +9,9 @@ export const addToCart = async (req, res) => {
         } else {
             user.cartItems.push(productId);
         }
+
+        await user.save();
+        
     } catch (error) {
 
     }
