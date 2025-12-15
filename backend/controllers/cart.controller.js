@@ -11,7 +11,7 @@ export const addToCart = async (req, res) => {
         }
 
         await user.save();
-        
+        res.json(user.cartItems);
     } catch (error) {
 
     }
