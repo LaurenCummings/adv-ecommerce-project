@@ -1,4 +1,10 @@
-export const addToCart = async (req, res) => {};
+export const addToCart = async (req, res) => {
+    try {
+
+    } catch (error) {
+        
+    }
+};
 
 export const removeAllFromCart = async (req, res) => {};
 
