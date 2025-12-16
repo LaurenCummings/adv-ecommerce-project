@@ -34,6 +34,12 @@ export const removeAllFromCart = async (req, res) => {
     }
 };
 
-export const updateQuantity = async (req, res) => {};
+export const updateQuantity = async (req, res) => {
+    try {
+
+    } catch (error) {
+
+    }
+};
 
 export const getCartProducts = async (req, res) => {};
