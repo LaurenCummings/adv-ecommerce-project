@@ -22,6 +22,9 @@ export const removeAllFromCart = async (req, res) => {
     try {
         const { productId } = req.body;
         const user = req.user;
+        if (!productId) {
+            user.cartItems = [];
+        }
     } catch (error) {
         res.status(500).json({ message: "Server error", error: error.message });
     }
