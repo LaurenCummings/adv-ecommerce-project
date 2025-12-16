@@ -21,6 +21,7 @@ export const addToCart = async (req, res) => {
 export const removeAllFromCart = async (req, res) => {
     try {
         const { productId } = req.body;
+        const user = req.user;
     } catch (error) {
         res.status(500).json({ message: "Server error", error: error.message });
     }
