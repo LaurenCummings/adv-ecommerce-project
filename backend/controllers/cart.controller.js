@@ -44,6 +44,7 @@ export const updateQuantity = async (req, res) => {
         if (existingItem) {
             if (quantity === 0) {
                 user.cartItems = user.cartItems.filter((item) => item.id !== productId);
+                await user.save();
             }
         }
     } catch (error) {
