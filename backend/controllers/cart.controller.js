@@ -47,6 +47,8 @@ export const updateQuantity = async (req, res) => {
                 await user.save();
                 return res.json(user.cartItems);
             }
+
+            existingItem.quantity = quantity;
         }
     } catch (error) {
 
