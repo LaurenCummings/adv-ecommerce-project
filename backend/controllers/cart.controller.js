@@ -49,6 +49,7 @@ export const updateQuantity = async (req, res) => {
             }
 
             existingItem.quantity = quantity;
+            await user.save();
         }
     } catch (error) {
 
