@@ -62,8 +62,8 @@ export const updateQuantity = async (req, res) => {
 
 export const getCartProducts = async (req, res) => {
     try {
-
+        const products = await Product.find({ _id: { $in: req.user.cartItems }});
     } catch (error) {
-        
+
     }
 };
