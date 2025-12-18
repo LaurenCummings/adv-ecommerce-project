@@ -74,6 +74,6 @@ export const getCartProducts = async (req, res) => {
 
         res.json(cartItems);
     } catch (error) {
-
+        console.log("Error in getCartProducts controller", error.message);
     }
 };
