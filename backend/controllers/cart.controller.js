@@ -60,4 +60,10 @@ export const updateQuantity = async (req, res) => {
     }
 };
 
-export const getCartProducts = async (req, res) => {};
+export const getCartProducts = async (req, res) => {
+    try {
+
+    } catch (error) {
+        
+    }
+};
