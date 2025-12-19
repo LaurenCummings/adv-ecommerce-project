@@ -6,4 +6,6 @@ const couponSchema = new mongoose.Schema({
         required: true,
         unique: true,
     }
-})
+});
+
+export const Coupon = mongoose.model("Coupon", couponSchema);
