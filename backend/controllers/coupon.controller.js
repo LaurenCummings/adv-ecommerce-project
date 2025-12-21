@@ -12,8 +12,8 @@ export const getCoupon = async (req, res) => {
 
 export const validateCoupon = async (req, res) => {
     try {
-
+        const { code } = req.body;
     } catch (error) {
-        
+
     }
 };
