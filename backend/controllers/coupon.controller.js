@@ -25,6 +25,6 @@ export const validateCoupon = async (req, res) => {
             return res.status*I
         }
     } catch (error) {
-
+        console.log("Error in validateCoupon controller", error.message);
     }
 };
