@@ -2,7 +2,11 @@ import mongoose from "mongoose";
 
 const orderSchema = new mongoose.Schema(
     {
-
+        totalAmount: {
+            type: Number,
+            required: true,
+            min: 0,
+        }
 
     },
     { timestamps: true }
