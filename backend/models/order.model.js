@@ -6,8 +6,11 @@ const orderSchema = new mongoose.Schema(
             type: Number,
             required: true,
             min: 0,
-        }
-
+        },
+        stripeSessionId: {
+            type: String,
+            unique: true,
+        },
     },
     { timestamps: true }
 );
