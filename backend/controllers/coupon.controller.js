@@ -21,6 +21,7 @@ export const validateCoupon = async (req, res) => {
 
         if (coupon.expirationDate < new Date()) {
             coupon.isActive = false;
+            await coupon.save();
         }
     } catch (error) {
 
