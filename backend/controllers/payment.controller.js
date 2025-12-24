@@ -1,1 +1,7 @@
-export const createCheckoutSession = async (req, res) => {};
+export const createCheckoutSession = async (req, res) => {
+    try {
+
+    } catch (error) {
+        
+    }
+};
