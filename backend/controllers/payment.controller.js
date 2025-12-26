@@ -47,3 +47,7 @@ export const createCheckoutSession = async (req, res) => {
         
     }
 };
+
+async function createStripeCoupon() {
+    
+}
