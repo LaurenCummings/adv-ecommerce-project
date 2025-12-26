@@ -1,6 +1,8 @@
 import { stripe } from "../lib/stripe.js";
 import dotenv from "dotenv";
 
+dotenv.config();
+
 export const createCheckoutSession = async (req, res) => {
     try {
         const { products, couponCode } = req.body;
