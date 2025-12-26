@@ -23,6 +23,8 @@ export const createCheckoutSession = async (req, res) => {
                 }
             }
         });
+
+        let coupon = null;
     } catch (error) {
         
     }
