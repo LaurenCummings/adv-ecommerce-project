@@ -9,7 +9,7 @@ export const createCheckoutSession = async (req, res) => {
         let totalAmount = 0;
 
         const lineItems = products.map(product => {
-            const amount = product.price * 100 // convert price to cents
+            const amount = Math.round(product.price * 100) // convert price to cents (required for Stripe)
         })
     } catch (error) {
         
