@@ -1,3 +1,5 @@
+import { stripe } from "../lib/stripe.js";
+
 export const createCheckoutSession = async (req, res) => {
     try {
         const { products, couponCode } = req.body;
@@ -30,6 +32,7 @@ export const createCheckoutSession = async (req, res) => {
             if (coupon) {
                 totalAmount -= Math.round(totalAmount * coupon.discountPercentage / 100);
             }
+
         }
     } catch (error) {
         
