@@ -25,6 +25,9 @@ export const createCheckoutSession = async (req, res) => {
         });
 
         let coupon = null;
+        if (couponCode) {
+            coupon = await coupon.findOne({ code: couponCode, userId: req.user._id, isActive: true });
+        }
     } catch (error) {
         
     }
