@@ -55,6 +55,6 @@ export const createCheckoutSession = async (req, res) => {
     }
 };
 
-async function createStripeCoupon() {
+async function createStripeCoupon(discountPercentage) {
 
 }
