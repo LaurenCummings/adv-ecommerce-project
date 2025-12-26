@@ -5,6 +5,8 @@ export const createCheckoutSession = async (req, res) => {
         if (!Array.isArray(products) || products.length === 0) {
             return res.status(400).json({ error: "Invalid or empty products array" });
         }
+
+        let totalAmount = 0;
     } catch (error) {
         
     }
