@@ -7,6 +7,10 @@ export const createCheckoutSession = async (req, res) => {
         }
 
         let totalAmount = 0;
+
+        const lineItems = products.map(product => {
+            
+        })
     } catch (error) {
         
     }
