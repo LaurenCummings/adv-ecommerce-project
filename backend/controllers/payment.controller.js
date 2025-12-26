@@ -1,4 +1,5 @@
 import { stripe } from "../lib/stripe.js";
+import dotenv from "dotenv";
 
 export const createCheckoutSession = async (req, res) => {
     try {
