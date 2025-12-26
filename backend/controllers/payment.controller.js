@@ -32,7 +32,9 @@ export const createCheckoutSession = async (req, res) => {
             if (coupon) {
                 totalAmount -= Math.round(totalAmount * coupon.discountPercentage / 100);
             }
-
+            const session = await stripe.checkout.sessions.create({
+                
+            })
         }
     } catch (error) {
         
