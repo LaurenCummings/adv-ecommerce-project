@@ -48,6 +48,9 @@ export const createCheckoutSession = async (req, res) => {
                             },
                         ]
                     : [],
+                metadata: {
+                    userId: req.user._id.toString(),
+                }
             });
         }
     } catch (error) {
