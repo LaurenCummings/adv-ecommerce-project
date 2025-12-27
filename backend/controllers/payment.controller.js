@@ -75,4 +75,6 @@ async function createNewCoupon(userId) {
         expirationDate: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), // 30 days from now
         userId: userId
     })
+
+    await newCoupon.save();
 }
