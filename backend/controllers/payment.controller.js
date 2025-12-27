@@ -60,4 +60,6 @@ async function createStripeCoupon(discountPercentage) {
         percent_off: discountPercentage,
         duration: "once",
     });
+
+    return coupon.id;
 }
