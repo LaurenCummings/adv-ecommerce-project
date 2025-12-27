@@ -67,3 +67,7 @@ async function createStripeCoupon(discountPercentage) {
 
     return coupon.id;
 }
+
+async function createNewCoupon(userId) {
+    
+}
