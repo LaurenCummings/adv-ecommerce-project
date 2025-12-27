@@ -56,5 +56,7 @@ export const createCheckoutSession = async (req, res) => {
 };
 
 async function createStripeCoupon(discountPercentage) {
+    const coupon = await stripe.coupons.create({
 
+    });
 }
