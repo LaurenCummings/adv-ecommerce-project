@@ -6,9 +6,9 @@ dotenv.config();
 
 export const checkoutSuccess = async (req, res) => {
     try {
-
+        const { sessionId } = req.body;
     } catch (error) {
-        
+
     }
 };
 
