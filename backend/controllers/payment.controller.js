@@ -5,7 +5,11 @@ import dotenv from "dotenv";
 dotenv.config();
 
 export const checkoutSuccess = async (req, res) => {
+    try {
 
+    } catch (error) {
+        
+    }
 };
 
 export const createCheckoutSession = async (req, res) => {
