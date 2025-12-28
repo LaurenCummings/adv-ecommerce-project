@@ -87,6 +87,9 @@ export const checkoutSuccess = async (req, res) => {
                     isActive: false
                 })
             }
+
+            // create a new order
+            const products = JSON.parse(session.metadata.products);
         }
     } catch (error) {
 
