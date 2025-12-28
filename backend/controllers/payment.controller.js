@@ -4,25 +4,6 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-export const checkoutSuccess = async (req, res) => {
-    try {
-        const { sessionId } = req.body;
-        const session = await stripe.checkout.sessions.retrieve(sessionId);
-
-        if (session.payment_status === "paid") {
-            if (session.metadata.couponCode) {
-                await Coupon.findOneAndUpdate({
-                    code: session.metadata.couponCode, userId: session.metadata.userId
-                }, {
-                    isActive: false
-                })
-            }
-        }
-    } catch (error) {
-
-    }
-};
-
 export const createCheckoutSession = async (req, res) => {
     try {
         const { products, couponCode } = req.body;
@@ -82,6 +63,25 @@ export const createCheckoutSession = async (req, res) => {
     } catch (error) {
         console.log("Error in createCheckoutSession controller", error.message);
         res.status(500).json({ message: "Server error", error: error.message });
+    }
+};
+
+export const checkoutSuccess = async (req, res) => {
+    try {
+        const { sessionId } = req.body;
+        const session = await stripe.checkout.sessions.retrieve(sessionId);
+
+        if (session.payment_status === "paid") {
+            if (session.metadata.couponCode) {
+                await Coupon.findOneAndUpdate({
+                    code: session.metadata.couponCode, userId: session.metadata.userId
+                }, {
+                    isActive: false
+                })
+            }
+        }
+    } catch (error) {
+
     }
 };
 
