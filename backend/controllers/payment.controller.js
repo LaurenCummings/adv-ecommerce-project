@@ -1,3 +1,4 @@
+import Coupon from "../models/coupon.model.js";
 import { stripe } from "../lib/stripe.js";
 import dotenv from "dotenv";
 
