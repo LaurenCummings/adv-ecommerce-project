@@ -96,7 +96,8 @@ export const checkoutSuccess = async (req, res) => {
                     product: product.id,
                     quantity: product.quantity,
                     price: product.price
-                }))
+                })),
+                totalAmount: session.amount_total / 100, // total converted from cents to dollars
             })
         }
     } catch (error) {
