@@ -110,7 +110,7 @@ export const checkoutSuccess = async (req, res) => {
             })
         }
     } catch (error) {
-
+        console.error("Error processing successful checkout:", error);
     }
 };
 
