@@ -102,6 +102,10 @@ export const checkoutSuccess = async (req, res) => {
             })
 
             await newOrder.save();
+
+            res.status(200).json({
+                success: true,
+            })
         }
     } catch (error) {
 
