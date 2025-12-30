@@ -105,6 +105,7 @@ export const checkoutSuccess = async (req, res) => {
 
             res.status(200).json({
                 success: true,
+                message: "Payment successful, order created, and coupon deactivated if used.",
             })
         }
     } catch (error) {
