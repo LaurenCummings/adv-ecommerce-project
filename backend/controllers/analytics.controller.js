@@ -25,3 +25,7 @@ export const getAnalyticsData = async (req, res) => {
         totalRevenue,
     };
 };
+
+export const getDailySalesData = async (startDate, endDate) => {
+
+};
