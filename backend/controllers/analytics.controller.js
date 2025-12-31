@@ -22,6 +22,6 @@ export const getAnalyticsData = async (req, res) => {
         users: totalUsers,
         products: totalProducts,
         totalSales,
-        totalRevenue
-    }
-}
+        totalRevenue,
+    };
+};
