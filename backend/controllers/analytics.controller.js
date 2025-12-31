@@ -15,4 +15,6 @@ export const getAnalyticsData = async (req, res) => {
             }
         }
     ])
+
+    const { totalSales, totalRevenue } = salesData[0] || { totalSales: 0, totalRevenue: 0 };
 }
