@@ -9,6 +9,7 @@ router.get("/", protectRoute, adminRoute, async (req, res) => {
         const analyticsData = await getAnalyticsData();
 
         const endDate = new Date();
+        const startDate = new Date(endDate.getTime() - 7 * 24 * 60 * 60 * 1000);
     } catch (error) {
 
     }
