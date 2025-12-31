@@ -7,6 +7,8 @@ const router = express.Router();
 router.get("/", protectRoute, adminRoute, async (req, res) => {
     try {
         const analyticsData = await getAnalyticsData();
+
+        const endDate = new Date();
     } catch (error) {
 
     }
