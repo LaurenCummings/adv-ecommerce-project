@@ -46,6 +46,7 @@ export const getDailySalesData = async (startDate, endDate) => {
         { $sort: { _id: 1 } },
     ]);
 
+    const dateArray = getDatesInRange(startDate, endDate);
 };
 
 function getDatesInRange(startDate, endDate) {
