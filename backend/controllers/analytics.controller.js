@@ -54,6 +54,7 @@ export const getDailySalesData = async (startDate, endDate) => {
         return {
             date,
             sales: foundData?.sales || 0,
+            revenue: foundData?.revenue || 0,
         }
     })
 };
