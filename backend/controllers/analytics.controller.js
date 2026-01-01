@@ -59,7 +59,7 @@ export const getDailySalesData = async (startDate, endDate) => {
             }
         })
     } catch (error) {
-
+        throw error;
     }
 };
 
