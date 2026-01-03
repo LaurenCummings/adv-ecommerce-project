@@ -24,6 +24,7 @@
     "jsonwebtoken": "^9.0.2",
     "lucide-react": "^0.562.0",
     "mongoose": "^8.20.1",
+    "react-confetti": "^6.4.0",
     "stripe": "^20.0.0"
   },
   "devDependencies": {
