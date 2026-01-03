@@ -12,6 +12,7 @@
   "type": "module",
   "license": "ISC",
   "dependencies": {
+    "@stripe/stripe-js": "^8.6.0",
     "@upstash/redis": "^1.35.6",
     "axios": "^1.13.2",
     "bcryptjs": "^3.0.3",
