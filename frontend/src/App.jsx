@@ -8,6 +8,7 @@ function App() {
     <div> APp
       <Routes>
         <Route path="/" element={ <HomePage /> } />
+        <Route path="/signup" element={ <SignUpPage /> } />
       </Routes>
     </div>
   )
