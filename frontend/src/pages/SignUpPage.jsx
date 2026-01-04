@@ -1,8 +1,8 @@
 
-function SignupPage() {
+function SignUpPage() {
   return (
-    <div>SignupPage</div>
+    <div>SignUpPage</div>
   )
 }
 
-export default SignupPage
+export default SignUpPage
