@@ -4,9 +4,9 @@ import HomePage from "./pages/HomePage";
 function App() {
   return (
     <div> APp
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={ <HomePage /> } />
-      </Routes> */}
+      </Routes>
     </div>
   )
 }
