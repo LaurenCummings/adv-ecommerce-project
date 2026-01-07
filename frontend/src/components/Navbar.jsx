@@ -8,6 +8,10 @@ function Navbar() {
             <Link to="/" className="text-2xl font-bold text-emerald-400 items-center space-x-2 flex">
                 E-Commerce
             </Link>
+
+            <nav>
+              
+            </nav>
         </div>
     </header>
   )
