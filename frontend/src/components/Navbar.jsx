@@ -9,8 +9,8 @@ function Navbar() {
                 E-Commerce
             </Link>
 
-            <nav>
-              
+            <nav className="flex flex-wrap items-center gap-4">
+
             </nav>
         </div>
     </header>
