@@ -10,7 +10,7 @@ function Navbar() {
             </Link>
 
             <nav className="flex flex-wrap items-center gap-4">
-
+              <Link to={"/"} className="">Home</Link>
             </nav>
         </div>
     </header>
