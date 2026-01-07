@@ -13,7 +13,7 @@ function Navbar() {
               <Link to={"/"} className="">Home</Link>
               { user && (
                 <Link to={"/cart"} className="relative group">
-                  
+                  <ShoppingCart size={20} />
                 </Link>
               )}
             </nav>
