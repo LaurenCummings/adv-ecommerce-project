@@ -11,6 +11,11 @@ function Navbar() {
 
             <nav className="flex flex-wrap items-center gap-4">
               <Link to={"/"} className="">Home</Link>
+              { user && (
+                <Link to={"/cart"} className="relative group">
+                  
+                </Link>
+              )}
             </nav>
         </div>
     </header>
