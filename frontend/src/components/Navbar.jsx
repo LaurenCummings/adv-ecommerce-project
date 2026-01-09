@@ -10,7 +10,7 @@ function Navbar() {
             </Link>
 
             <nav className="flex flex-wrap items-center gap-4">
-              <Link to={"/"} className="">Home</Link>
+              <Link to={"/"} className="text-gray-300 hover:text-emerald-400 transition duration-300 ease-in-out">Home</Link>
               { user && (
                 <Link to={"/cart"} className="relative group">
                   <ShoppingCart className="inline-block mr-1 group-hover:text-emerald-400" size={20} />
