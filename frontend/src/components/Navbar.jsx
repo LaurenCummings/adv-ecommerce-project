@@ -15,7 +15,7 @@ function Navbar() {
                 <Link to={"/cart"} className="relative group">
                   <ShoppingCart className="inline-block mr-1 group-hover:text-emerald-400" size={20} />
                   <span className="hidden sm:inline">Cart</span>
-                  <span></span>
+                  <span>3</span>
                 </Link>
               )}
             </nav>
