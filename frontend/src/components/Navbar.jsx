@@ -36,7 +36,7 @@ function Navbar() {
               ) : (
                 <>
                   <Link to={"/signup"} className="bg-emerald-600 hover:bg-emerald-700 text-white py-2 px-4 rounded-md flex items-center transition duration-300 ease-in-out">
-                    <UserPlus />
+                    <UserPlus className="mr-2" size={18} />
                     Sign Up
                   </Link>
                 </>
