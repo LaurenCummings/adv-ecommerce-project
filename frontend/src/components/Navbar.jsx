@@ -35,7 +35,8 @@ function Navbar() {
                 </button>
               ) : (
                 <>
-                
+                  <Link to={"/signup"}>
+                  </Link>
                 </>
               )}
             </nav>
