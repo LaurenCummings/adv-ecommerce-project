@@ -29,8 +29,8 @@ function Navbar() {
               )}
 
               { user ? (
-                <button>
-                  <LogOut />
+                <button className="bg-gray-700 hover:bg-gray-600 text-white py-2 px-4 rounded-md flex items-center transition duration-300 ease-in-out">
+                  <LogOut size={18} />
                   <span>Log Out</span>
                 </button>
               ) : (
