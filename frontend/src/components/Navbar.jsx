@@ -27,6 +27,16 @@ function Navbar() {
                   <span className="hidden sm:inline">Dashboard</span>
                 </Link>
               )}
+
+              { user ? (
+                <button>
+
+                </button>
+              ) : (
+                <>
+                
+                </>
+              )}
             </nav>
         </div>
     </header>
