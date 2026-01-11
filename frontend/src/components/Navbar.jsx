@@ -37,6 +37,7 @@ function Navbar() {
                 <>
                   <Link to={"/signup"}>
                     <UserPlus />
+                    Sign Up
                   </Link>
                 </>
               )}
