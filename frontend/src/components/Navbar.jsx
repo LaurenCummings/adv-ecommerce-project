@@ -35,7 +35,7 @@ function Navbar() {
                 </button>
               ) : (
                 <>
-                  <Link to={"/signup"}>
+                  <Link to={"/signup"} className="bg-emerald-600 hover:bg-emerald-700 text-white py-2 px-4 rounded-md flex items-center transition duration-300 ease-in-out">
                     <UserPlus />
                     Sign Up
                   </Link>
