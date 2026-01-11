@@ -31,6 +31,7 @@ function Navbar() {
               { user ? (
                 <button>
                   <LogOut />
+                  <span>Log Out</span>
                 </button>
               ) : (
                 <>
