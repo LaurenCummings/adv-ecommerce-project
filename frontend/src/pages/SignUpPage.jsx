@@ -10,7 +10,11 @@ function SignUpPage() {
     email: "",
     password: "",
     confirmPassword: "",
-  })
+  });
+
+  const handleSubmit = (e) => {
+    
+  }
 
   return (
     <div>SignUpPage</div>
