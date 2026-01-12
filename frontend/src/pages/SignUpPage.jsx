@@ -4,6 +4,8 @@ import { UserPlus, Mail, Lock, User, ArrowRight, Loader } from "lucide-react";
 import { motion } from "framer-motion";
 
 function SignUpPage() {
+  const loading = true;
+  
   return (
     <div>SignUpPage</div>
   )
