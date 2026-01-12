@@ -5,7 +5,13 @@ import { motion } from "framer-motion";
 
 function SignUpPage() {
   const loading = true;
-  
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    password: "",
+    confirmPassword: "",
+  })
+
   return (
     <div>SignUpPage</div>
   )
