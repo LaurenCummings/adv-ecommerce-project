@@ -39,7 +39,7 @@ function Navbar() {
                     <UserPlus className="mr-2" size={18} />
                     Sign Up
                   </Link>
-                  <Link>
+                  <Link to={"/login"}>
                   </Link>
                 </>
               )}
