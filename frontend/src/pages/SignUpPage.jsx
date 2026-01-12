@@ -18,7 +18,9 @@ function SignUpPage() {
   }
 
   return (
-    <div>SignUpPage</div>
+    <div className="flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+
+    </div>
   )
 }
 
