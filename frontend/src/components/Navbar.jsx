@@ -39,7 +39,7 @@ function Navbar() {
                     <UserPlus className="mr-2" size={18} />
                     Sign Up
                   </Link>
-                  <Link to={"/login"} className="bg-emerald-600 hover:bg-emerald-700 text-white py-2 px-4 rounded-md flex items-center transition duration-300 ease-in-out">
+                  <Link to={"/login"} className="bg-gray-700 hover:bg-gray-600 text-white py-2 px-4 rounded-md flex items-center transition duration-300 ease-in-out">
                     <LogIn className="mr-2" size={18} />
                     Login
                   </Link>
