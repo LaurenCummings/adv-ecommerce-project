@@ -19,8 +19,12 @@ function SignUpPage() {
 
   return (
     <div className="flex flex-col justify-center py-12 sm:px-6 lg:px-8">
-      <motion.div>
-        
+      <motion.div
+        initial={{ opacity: 0, y:20 }}
+        animate={{ opacity:1, y:0 }}
+        transition={{ duration: 0.8, delay: 0.2 }}
+      >
+
       </motion.div>
     </div>
   )
