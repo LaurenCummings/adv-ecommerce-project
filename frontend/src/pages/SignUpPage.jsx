@@ -27,8 +27,10 @@ function SignUpPage() {
         <h2 className="mt-6 text-center text-3xl font-extrabold text-emerald-400">Create your Account</h2>
       </motion.div>
 
-      <motion.div>
-        
+      <motion.div
+        className="mt-8 sm:mx-auto sm:w-full sm:max-w-md"
+      >
+
       </motion.div>
     </div>
   )
