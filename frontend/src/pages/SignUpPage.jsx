@@ -115,6 +115,10 @@ function SignUpPage() {
               </div>
             </div>
 
+            <button>
+              
+            </button>
+
           </form>
         </div>
       </motion.div>
