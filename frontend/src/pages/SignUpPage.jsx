@@ -139,7 +139,7 @@ function SignUpPage() {
           <p className="mt-8 text-center text-sm text-gray-400">
             Already have an account?{" "}
             <Link>
-              Login here
+              Login here <ArrowRight className="inline h-4 w-4" />
             </Link>
           </p>
         </div>
