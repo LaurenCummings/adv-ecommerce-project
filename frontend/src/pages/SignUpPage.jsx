@@ -138,6 +138,9 @@ function SignUpPage() {
 
           <p className="mt-8 text-center text-sm text-gray-400">
             Already have an account?{" "}
+            <Link>
+              
+            </Link>
           </p>
         </div>
       </motion.div>
