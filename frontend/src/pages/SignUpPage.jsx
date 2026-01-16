@@ -136,7 +136,7 @@ function SignUpPage() {
 
           </form>
 
-          <p>
+          <p className="mt-8 text-center text-sm text-gray-400">
             Already have an account?{" "}
           </p>
         </div>
