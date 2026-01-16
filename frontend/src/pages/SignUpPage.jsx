@@ -137,7 +137,7 @@ function SignUpPage() {
           </form>
 
           <p>
-            
+            Already have an account?{" "}
           </p>
         </div>
       </motion.div>
