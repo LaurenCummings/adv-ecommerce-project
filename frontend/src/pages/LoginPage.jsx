@@ -89,7 +89,7 @@ function LoginPage() {
           </form>
 
           <p className="mt-8 text-center text-sm text-gray-400">
-            Already have an account?{" "}
+            Not a member?{" "}
             <Link to="/login" className="font-medium text-emerald-400 hover:text-emerald-300">
               Login here <ArrowRight className="inline h-4 w-4" />
             </Link>
