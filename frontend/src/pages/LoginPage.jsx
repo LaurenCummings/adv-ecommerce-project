@@ -8,6 +8,11 @@ function LoginPage() {
   const [password, setPassword] = useState("");
   const loading = true;
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(formData);
+  }
+
   return (
     <div className="flex flex-col justify-center py-12 sm:px-6 lg:px-8">
       <motion.div
