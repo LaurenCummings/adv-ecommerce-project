@@ -44,7 +44,7 @@ function LoginPage() {
                   id="email"
                   type="email"
                   required
-                  value={formData.email}
+                  value={email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   className="block w-full px-3 py-2 pl-10 bg-gray-700 border border-gray-600 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-emerald-500 focus:border-emerald-500 sm:te"
                   placeholder="you@example.com"
@@ -64,7 +64,7 @@ function LoginPage() {
                   id="password"
                   type="password"
                   required
-                  value={formData.password}
+                  value={password}
                   onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                   className="block w-full px-3 py-2 pl-10 bg-gray-700 border border-gray-600 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-emerald-500 focus:border-emerald-500 sm:te"
                   placeholder="••••••••"
