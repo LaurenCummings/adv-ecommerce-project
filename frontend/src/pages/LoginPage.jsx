@@ -90,7 +90,7 @@ function LoginPage() {
 
           <p className="mt-8 text-center text-sm text-gray-400">
             Not a member?{" "}
-            <Link to="/login" className="font-medium text-emerald-400 hover:text-emerald-300">
+            <Link to="/signup" className="font-medium text-emerald-400 hover:text-emerald-300">
               Login here <ArrowRight className="inline h-4 w-4" />
             </Link>
           </p>
