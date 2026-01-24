@@ -24,7 +24,7 @@ export const useUserStore = create((set, get) => ({
         }
     },
 
-    login: async ({ name, email, password, confirmPassword }) => {
+    login: async ({ email, password }) => {
         set({ loading: true });
 
         if (password !== confirmPassword) {
