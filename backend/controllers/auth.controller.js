@@ -15,7 +15,12 @@ const generateTokens = (userId) => {
 }
 
 const storeRefreshToken = async(userId, refreshToken) => {
-    await redis.set(`refresh_token:${userId}`, refreshToken, { ex : 7*24*60*60 });
+    try {
+        await redis.set(`refresh_token:${userId}`, refreshToken, { ex : 7*24*60*60 });
+    } catch (error) {
+        console.log("Error with redis database");
+    }
+    
 }
 
 const setCookies = (res, accessToken, refreshToken) => {
