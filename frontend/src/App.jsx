@@ -10,6 +10,11 @@ import { useEffect } from "react";
 
 function App() {
   const { user } = useUserStore();
+
+  useEffect(() => {
+
+  }, []);
+  
   return (
     <div className="min-h-screen bg-gray-900 text-white relative overflow-hidden"> 
     {/* Background gradient */}
