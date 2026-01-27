@@ -37,6 +37,6 @@ export const useUserStore = create((set, get) => ({
     },
 
     checkAuth: async () => {
-
+        set({ checkingAuth: true });
     }
 }));
