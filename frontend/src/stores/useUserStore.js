@@ -34,5 +34,9 @@ export const useUserStore = create((set, get) => ({
             set({ loading: false })
             toast.error(error.response.data.message || "An error occurred");
         }
+    },
+
+    checkAuth: async () => {
+
     }
-}))
+}));
