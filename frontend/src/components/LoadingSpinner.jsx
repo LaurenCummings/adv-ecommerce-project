@@ -1,8 +1,14 @@
 
 function LoadingSpinner() {
   return (
-    <div>LoadingSpinner</div>
-  )
-}
+    <div>
+        <div>
+            <div />
+            <div />
+            <div>Loading</div>
+        </div>
+    </div>
+  );
+};
 
 export default LoadingSpinner
