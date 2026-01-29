@@ -11,11 +11,12 @@ import { useEffect } from "react";
 import LoadingSpinner from "./components/LoadingSpinner";
 
 function App() {
-  const { user, checkAuth } = useUserStore();
+  const { user, checkAuth, checkingAuth } = useUserStore();
 
   useEffect(() => {
     checkAuth();
   }, [checkAuth]);
+
 
   return (
     <div className="min-h-screen bg-gray-900 text-white relative overflow-hidden"> 
