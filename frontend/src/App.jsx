@@ -29,7 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={ <HomePage /> } />
           <Route path="/signup" element={ <SignUpPage /> } />
-          <Route path="/login" element={ !user ? <LoginPage /> : <HomePage /> } />
+          <Route path="/login" element={ !user ? <LoginPage /> : <Navigate to="/" /> } />
         </Routes>      
       </div>
       <Toaster />
