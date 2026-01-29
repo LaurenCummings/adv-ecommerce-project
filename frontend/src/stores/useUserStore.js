@@ -37,7 +37,11 @@ export const useUserStore = create((set, get) => ({
     },
 
     logout: async () => {
+        try {
 
+        } catch (error) {
+            
+        }
     },
 
     checkAuth: async () => {
