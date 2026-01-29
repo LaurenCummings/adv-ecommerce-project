@@ -8,6 +8,8 @@ import { Toaster } from "react-hot-toast";
 import { useUserStore } from "./stores/useUserStore";
 import { useEffect } from "react";
 
+import LoadingSpinner from "./components/LoadingSpinner";
+
 function App() {
   const { user, checkAuth } = useUserStore();
 
