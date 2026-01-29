@@ -36,6 +36,10 @@ export const useUserStore = create((set, get) => ({
         }
     },
 
+    logout: async () => {
+
+    },
+
     checkAuth: async () => {
         set({ checkingAuth: true });
         try {
