@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useUserStore } from "../stores/useUserStore";
 
 function Navbar() {
-  const user = true;
+  const { user } = useUserStore();
   const isAdmin = true;
 
   return (
