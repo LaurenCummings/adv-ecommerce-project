@@ -16,7 +16,7 @@ function HomePage() {
           Explore Our Categories
         </h1>
         <p>
-
+          Discover the latest trends in eco-friendly fashion
         </p>
       </div>
     </div>
