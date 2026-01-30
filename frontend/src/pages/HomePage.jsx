@@ -1,5 +1,5 @@
 const categories = [
-
+  { href: "/jeans", name: "Jeans", imageUrl: "/jeans.jpg" },
 ];
 
 function HomePage() {
