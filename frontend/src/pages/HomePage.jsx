@@ -10,7 +10,16 @@ const categories = [
 
 function HomePage() {
   return (
-    <div>HomePage</div>
+    <div>
+      <div>
+        <h1>
+
+        </h1>
+        <p>
+          
+        </p>
+      </div>
+    </div>
   )
 }
 
