@@ -1,3 +1,7 @@
+const categories = [
+
+];
+
 function HomePage() {
   return (
     <div>HomePage</div>
