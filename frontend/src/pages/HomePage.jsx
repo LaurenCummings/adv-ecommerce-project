@@ -13,10 +13,10 @@ function HomePage() {
     <div>
       <div>
         <h1>
-
+          Explore Our Categories
         </h1>
         <p>
-          
+
         </p>
       </div>
     </div>
