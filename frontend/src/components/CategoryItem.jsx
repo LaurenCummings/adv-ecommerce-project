@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 function CategoryItem( { category } ) {
   return (
-    <div>
+    <div className="relative overflow-hidden h-96 w-full rounded-lg group">
         <Link>
-            <div>
-                <div />
+            <div className="w-full h-full cursor-pointer">
+                <div className="absolute inset-0 bg-linear-to-b from-transparent to-gray-900 opacity-50 z-10"/>
                 <img 
                     src={category.imageUrl}
                     alt={category.name}
