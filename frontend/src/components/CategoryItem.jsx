@@ -8,8 +8,8 @@ function CategoryItem( { category } ) {
                 <div />
                 <img />
                 <div>
-                    <h3></h3>
-                    <p></p>
+                    <h3>{category.name}</h3>
+                    <p>Explore {category.name}</p>
                 </div>
             </div>
         </Link>
