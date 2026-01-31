@@ -12,7 +12,7 @@ function CategoryItem( { category } ) {
                     className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-110"
                     loading="lazy"
                 />
-                <div>
+                <div className="absolute bottom-0 left-0 right-0 p-4 z-20">
                     <h3>{category.name}</h3>
                     <p>Explore {category.name}</p>
                 </div>
