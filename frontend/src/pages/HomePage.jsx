@@ -18,6 +18,10 @@ function HomePage() {
         <p className="text-center text-xl text-gray-300 mb-12">
           Discover the latest trends in eco-friendly fashion
         </p>
+
+        <div>
+          
+        </div>
       </div>
     </div>
   )
