@@ -1,5 +1,5 @@
 
-function CategoryItem() {
+function CategoryItem( { category } ) {
   return (
     <div>CategoryItem</div>
   )
