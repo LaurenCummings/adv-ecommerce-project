@@ -13,7 +13,7 @@ function CategoryItem( { category } ) {
                     loading="lazy"
                 />
                 <div className="absolute bottom-0 left-0 right-0 p-4 z-20">
-                    <h3>{category.name}</h3>
+                    <h3 className="text-white text-2xl font-bold mb-2">{category.name}</h3>
                     <p>Explore {category.name}</p>
                 </div>
             </div>
