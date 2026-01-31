@@ -1,3 +1,5 @@
+import CategoryItem from "../components/CategoryItem";
+
 const categories = [
   { href: "/jeans", name: "Jeans", imageUrl: "/jeans.jpg" },
   { href: "/tshirts", name: "T-shirts", imageUrl: "/tshirts.jpg" },
@@ -20,7 +22,9 @@ function HomePage() {
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-
+          { categories.map(category => (
+            <CategoryItem />
+          ))}
         </div>
       </div>
     </div>
