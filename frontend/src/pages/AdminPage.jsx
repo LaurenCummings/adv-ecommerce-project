@@ -1,3 +1,6 @@
+const tabs = [
+    
+]
 
 function AdminPage() {
   return (
