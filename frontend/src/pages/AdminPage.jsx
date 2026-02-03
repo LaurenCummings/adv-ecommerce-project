@@ -1,4 +1,4 @@
-import { BarChart, } from "lucide-react";
+import { BarChart, PlusCircle } from "lucide-react";
 
 const tabs = [
     { id: "create", label: "Create Product", icon: PlusCircle },
