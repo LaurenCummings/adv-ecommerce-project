@@ -26,7 +26,7 @@ function AdminPage() {
         <div className="flex justify-center mb-8">
           {tabs.map((tab) => {
             <button>
-              
+              {tab.label}
             </button>
           })}
         </div>
