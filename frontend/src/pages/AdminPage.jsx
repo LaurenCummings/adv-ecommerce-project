@@ -1,5 +1,6 @@
 import { BarChart, PlusCircle, ShoppingBasket } from "lucide-react";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 const tabs = [
     { id: "create", label: "Create Product", icon: PlusCircle },
