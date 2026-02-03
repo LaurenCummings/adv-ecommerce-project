@@ -9,9 +9,11 @@ const tabs = [
 
 function AdminPage() {
   const [activeTab, setActiveTab] = useState("create");
-  
+
   return (
-    <div>AdminPage</div>
+    <div className="min-h-screen bg-gray-900 text-white relative overflow-hidden">
+
+    </div>
   )
 }
 
