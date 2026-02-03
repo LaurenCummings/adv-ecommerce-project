@@ -24,7 +24,9 @@ function AdminPage() {
         </motion.h1>
 
         <div className="flex justify-center mb-8">
-
+          {tabs.map((tab) => {
+            
+          })}
         </div>
       </div>
     </div>
