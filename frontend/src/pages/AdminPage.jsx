@@ -23,8 +23,8 @@ function AdminPage() {
           Admin Dashboard
         </motion.h1>
 
-        <div>
-          
+        <div className="flex justify-center mb-8">
+
         </div>
       </div>
     </div>
