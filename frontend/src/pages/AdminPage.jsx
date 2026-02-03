@@ -15,7 +15,7 @@ function AdminPage() {
     <div className="min-h-screen bg-gray-900 text-white relative overflow-hidden">
       <div className="relative z-10 container mx-auto px-4 py-16">
         <motion.h1>
-          
+          Admin Dashboard
         </motion.h1>
       </div>
     </div>
