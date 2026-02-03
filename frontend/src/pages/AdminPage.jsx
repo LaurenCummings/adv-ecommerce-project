@@ -22,6 +22,10 @@ function AdminPage() {
         >
           Admin Dashboard
         </motion.h1>
+
+        <div>
+          
+        </div>
       </div>
     </div>
   )
