@@ -8,6 +8,8 @@ const tabs = [
 ];
 
 function AdminPage() {
+  const [activeTab, setActiveTab] = useState("create");
+  
   return (
     <div>AdminPage</div>
   )
