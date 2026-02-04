@@ -37,6 +37,7 @@ function AdminPage() {
         </div>
         { activeTab === "create" && <CreateProductForm /> }
         { activeTab === "products" && <ProductsList /> }
+        { activeTab === "analytics" && <AnalyticsTab /> }
       </div>
     </div>
   )
