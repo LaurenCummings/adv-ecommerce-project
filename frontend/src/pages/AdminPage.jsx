@@ -35,6 +35,7 @@ function AdminPage() {
             </button>
           })}
         </div>
+        { activeTab === "create" && <CreateProductForm /> }
       </div>
     </div>
   )
