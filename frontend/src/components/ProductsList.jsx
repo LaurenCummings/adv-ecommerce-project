@@ -1,8 +1,8 @@
 
-function ProductList() {
+function ProductsList() {
   return (
-    <div>ProductList</div>
+    <div>ProductsList</div>
   )
 }
 
-export default ProductList
+export default ProductsList
