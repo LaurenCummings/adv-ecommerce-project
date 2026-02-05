@@ -3,7 +3,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import AnalyticsTab from "../components/AnalyticsTab";
 import CreateProductForm from "../components/CreateProductForm";
-import ProductsList from "../components/ProductList";
+import ProductsList from "../components/ProductsList";
 
 const tabs = [
     { id: "create", label: "Create Product", icon: PlusCircle },
