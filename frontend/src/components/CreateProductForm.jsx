@@ -5,6 +5,10 @@ import { PlusCircle, Upload, Loader } from "lucide-react";
 const categories = ["jean", "t-shirt", "shoe", "glasses", "jacket", "suit", "bag"];
 
 function CreateProductForm() {
+  const [newProduct, setNewProduct] = useState({
+  
+  });
+  
   return (
     <div>CreateProductForm</div>
   )
