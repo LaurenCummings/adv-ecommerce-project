@@ -20,7 +20,7 @@ function CreateProductForm() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
-
+      <h2>Create New Product</h2>
     </motion.div>
   )
 }
