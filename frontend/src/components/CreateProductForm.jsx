@@ -14,8 +14,10 @@ function CreateProductForm() {
   });
 
   return (
-    <motion.div>
-      
+    <motion.div
+      className="bg-gray-800 shadow-lg rounded-lg p-8 mb-8 max-w-xl mx-auto"
+    >
+
     </motion.div>
   )
 }
