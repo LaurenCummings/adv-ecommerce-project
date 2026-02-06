@@ -14,7 +14,9 @@ function CreateProductForm() {
   });
 
   return (
-    <div>CreateProductForm</div>
+    <motion.div>
+      
+    </motion.div>
   )
 }
 
