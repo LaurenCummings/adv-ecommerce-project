@@ -10,7 +10,6 @@ function CreateProductForm() {
     description: "",
     price: "",
     category: "",
-    countInStock: "",
     image: "",
   });
 
