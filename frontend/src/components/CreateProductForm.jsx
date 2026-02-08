@@ -33,7 +33,11 @@ function CreateProductForm() {
             Product Name
           </label>
           <input 
-          
+            type="text"
+            id="name"
+            name="name"
+            value={newProduct.name}
+            onChange={(e) => setNewProduct({ ...newProduct, name: e.target.value })}
           />
         </div>
       </form>
