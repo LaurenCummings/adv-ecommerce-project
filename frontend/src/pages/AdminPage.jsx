@@ -27,7 +27,7 @@ function AdminPage() {
         </motion.h1>
 
         <div className="flex justify-center mb-8">
-          {tabs.map((tab) => {
+          {tabs.map((tab) => (
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
@@ -36,7 +36,7 @@ function AdminPage() {
               <tab.icon className="mr-2 h-5 w-5" />
               {tab.label}
             </button>
-          })}
+          ))}
         </div>
         { activeTab === "create" && <CreateProductForm /> }
         { activeTab === "products" && <ProductsList /> }
