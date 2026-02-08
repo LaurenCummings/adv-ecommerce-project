@@ -27,7 +27,7 @@ function CreateProductForm() {
     >
       <h2 className="text-2xl font-semibold mb-6 text-emerald-300">Create New Product</h2>
 
-      <form></form>
+      <form onSubmit={handleSubmit}></form>
 
     </motion.div>
   )
