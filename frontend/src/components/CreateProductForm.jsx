@@ -44,7 +44,7 @@ function CreateProductForm() {
         </div>
 
         <div>
-          <label>
+          <label htmlFor="description" className="block text-sm font-medium text-gray-300">
             Description
           </label>
         </div>
