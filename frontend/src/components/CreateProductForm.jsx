@@ -48,7 +48,11 @@ function CreateProductForm() {
             Description
           </label>
           <textarea 
-          
+            id="description"
+            name="description"
+            value={newProduct.description}
+            onChange={(e) => setNewProduct({ ...newProduct, description: e.target.value })}
+            rows="3"
           />
         </div>
       </form>
