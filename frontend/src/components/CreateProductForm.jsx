@@ -30,7 +30,7 @@ function CreateProductForm() {
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name" className="block text-sm font-medium text-gray-300">
-
+            Product Name
           </label>
         </div>
       </form>
