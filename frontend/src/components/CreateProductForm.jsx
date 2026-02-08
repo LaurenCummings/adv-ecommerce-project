@@ -32,6 +32,9 @@ function CreateProductForm() {
           <label htmlFor="name" className="block text-sm font-medium text-gray-300">
             Product Name
           </label>
+          <input 
+          
+          />
         </div>
       </form>
 
