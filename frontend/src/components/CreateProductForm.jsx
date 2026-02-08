@@ -47,6 +47,9 @@ function CreateProductForm() {
           <label htmlFor="description" className="block text-sm font-medium text-gray-300">
             Description
           </label>
+          <textarea 
+          
+          />
         </div>
       </form>
 
