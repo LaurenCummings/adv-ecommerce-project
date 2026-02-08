@@ -45,7 +45,7 @@ function CreateProductForm() {
 
         <div>
           <label>
-            
+            Description
           </label>
         </div>
       </form>
