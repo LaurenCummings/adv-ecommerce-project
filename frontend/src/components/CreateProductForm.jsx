@@ -29,8 +29,8 @@ function CreateProductForm() {
 
       <form onSubmit={handleSubmit}>
         <div>
-          <label>
-            
+          <label htmlFor="name" className="block text-sm font-medium text-gray-300">
+
           </label>
         </div>
       </form>
