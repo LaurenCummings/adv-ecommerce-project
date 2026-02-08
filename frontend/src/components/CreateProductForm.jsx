@@ -13,6 +13,11 @@ function CreateProductForm() {
     image: "",
   });
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(newProduct);
+  }
+
   return (
     <motion.div
       className="bg-gray-800 shadow-lg rounded-lg p-8 mb-8 max-w-xl mx-auto"
