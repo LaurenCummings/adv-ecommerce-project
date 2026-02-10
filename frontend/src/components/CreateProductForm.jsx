@@ -80,6 +80,11 @@ function CreateProductForm() {
           </label>
           <select>
             <option value="">Select a category</option>
+            {categories.map((category) => (
+              <option key={category} value={category}>
+                {category}
+              </option>
+            ))}
           </select>
         </div>
       </form>
