@@ -78,6 +78,9 @@ function CreateProductForm() {
           <label>
             Category
           </label>
+          <select>
+            
+          </select>
         </div>
       </form>
 
