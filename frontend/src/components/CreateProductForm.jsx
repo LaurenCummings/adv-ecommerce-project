@@ -79,7 +79,7 @@ function CreateProductForm() {
             Category
           </label>
           <select>
-            
+            <option value="">Select a category</option>
           </select>
         </div>
       </form>
