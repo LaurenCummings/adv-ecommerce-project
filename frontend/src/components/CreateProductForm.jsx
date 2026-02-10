@@ -18,6 +18,10 @@ function CreateProductForm() {
     console.log(newProduct);
   }
 
+  const handleImageChange = (e) => {
+    
+  }
+
   return (
     <motion.div
       className="bg-gray-800 shadow-lg rounded-lg p-8 mb-8 max-w-xl mx-auto"
