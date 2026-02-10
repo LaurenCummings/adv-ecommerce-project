@@ -19,7 +19,7 @@ function CreateProductForm() {
   }
 
   const handleImageChange = (e) => {
-    
+
   }
 
   return (
@@ -100,7 +100,7 @@ function CreateProductForm() {
         </div>
 
         <div>
-          <input />
+          <input type="file" id="image" onChange={handleImageChange} className="sr-only" accept="image/*" />
         </div>
       </form>
 
