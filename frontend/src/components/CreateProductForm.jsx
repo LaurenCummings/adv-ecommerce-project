@@ -57,6 +57,10 @@ function CreateProductForm() {
             required
           />
         </div>
+
+        <div>
+          
+        </div>
       </form>
 
     </motion.div>
