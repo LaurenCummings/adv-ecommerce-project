@@ -108,6 +108,7 @@ function CreateProductForm() {
             <Upload className="h-5 w-5 inline-block mr-2" />
             Upload Image
           </label>
+          {newProduct.image && <span className="ml-3 text-sm text-gray-400">{newProduct.image}</span>}
         </div>
       </form>
 
