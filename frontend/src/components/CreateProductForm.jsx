@@ -63,7 +63,12 @@ function CreateProductForm() {
             Price
           </label>
           <input 
-          
+            type="number"
+            id="price"
+            name="price"
+            value={newProduct.price}
+            onChange={(e) => setNewProduct({ ...newProduct, price: e.target.value })}
+            step="0.01"
           />
         </div>
       </form>
