@@ -94,6 +94,10 @@ function CreateProductForm() {
             ))}
           </select>
         </div>
+
+        <div>
+          
+        </div>
       </form>
 
     </motion.div>
