@@ -62,6 +62,9 @@ function CreateProductForm() {
           <label htmlFor="price" className="block text-sm font-medium text-gray-300">
             Price
           </label>
+          <input 
+          
+          />
         </div>
       </form>
 
