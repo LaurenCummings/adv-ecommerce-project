@@ -78,7 +78,12 @@ function CreateProductForm() {
           <label>
             Category
           </label>
-          <select>
+          <select
+            id="category"
+            name="category"
+            value={newProduct.category}
+            onChange={(e) => setNewProduct({ ...newProduct, cateogy: e.target.value })}
+          >
             <option value="">Select a category</option>
             {categories.map((category) => (
               <option key={category} value={category}>
