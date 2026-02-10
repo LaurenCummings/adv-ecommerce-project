@@ -96,7 +96,7 @@ function CreateProductForm() {
         </div>
 
         <div>
-          
+          <input />
         </div>
       </form>
 
