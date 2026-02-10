@@ -76,7 +76,7 @@ function CreateProductForm() {
 
         <div>
           <label>
-            
+            Category
           </label>
         </div>
       </form>
