@@ -59,7 +59,7 @@ function CreateProductForm() {
         </div>
 
         <div>
-          <label>
+          <label htmlFor="price" className="block text-sm font-medium text-gray-300">
             Price
           </label>
         </div>
