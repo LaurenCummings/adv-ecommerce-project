@@ -60,7 +60,7 @@ function CreateProductForm() {
 
         <div>
           <label>
-            
+            Price
           </label>
         </div>
       </form>
