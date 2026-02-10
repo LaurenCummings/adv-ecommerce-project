@@ -101,6 +101,9 @@ function CreateProductForm() {
 
         <div className="mt-1 flex items-center">
           <input type="file" id="image" onChange={handleImageChange} className="sr-only" accept="image/*" />
+          <label>
+            
+          </label>
         </div>
       </form>
 
