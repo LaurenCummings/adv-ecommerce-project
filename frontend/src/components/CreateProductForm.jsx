@@ -105,7 +105,7 @@ function CreateProductForm() {
             htmlFor="image"
             className="cursor-pointer bg-gray-700 py-2 px-3 border border-gray-600 rounded-md shadow-sm text-sm leading-4 font-medium text-gray-300 hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset focus:ring-emerald-500"
           >
-
+            <Upload />
           </label>
         </div>
       </form>
