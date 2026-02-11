@@ -125,7 +125,7 @@ function CreateProductForm() {
             </>
           ) : (
             <>
-              <PlusCircle />
+              <PlusCircle className="mr-2 h-5 w-5" />
             </>
           )}
         </button>
