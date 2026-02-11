@@ -13,6 +13,8 @@ function CreateProductForm() {
     image: "",
   });
 
+  const loading = false;
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(newProduct);
