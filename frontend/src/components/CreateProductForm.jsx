@@ -125,7 +125,7 @@ function CreateProductForm() {
             </>
           ) : (
             <>
-            
+              <PlusCircle />
             </>
           )}
         </button>
