@@ -112,6 +112,10 @@ function CreateProductForm() {
           </label>
           {newProduct.image && <span className="ml-3 text-sm text-gray-400">{newProduct.image}</span>}
         </div>
+
+        <button>
+          
+        </button>
       </form>
 
     </motion.div>
