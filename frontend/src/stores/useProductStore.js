@@ -9,6 +9,6 @@ const useProductStore = create((set) => ({
     setProducts: (products) => set({ products }),
 
     createProduct: async(productData) => {
-        
+        set({ loading: true });
     } 
 }))
