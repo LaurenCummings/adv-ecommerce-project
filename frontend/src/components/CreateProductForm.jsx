@@ -21,7 +21,7 @@ function CreateProductForm() {
   }
 
   const handleImageChange = (e) => {
-
+    const file = e.target.files[0];
   }
 
   return (
