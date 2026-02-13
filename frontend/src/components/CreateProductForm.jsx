@@ -22,6 +22,13 @@ function CreateProductForm() {
 
   const handleImageChange = (e) => {
     const file = e.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+
+      reader.onloadend = () => {
+        setNewProduct({ ...newProduct, image: reader.result });
+      }
+    }
   }
 
   return (
