@@ -33,7 +33,7 @@ function CreateProductForm() {
     >
       <h2 className="text-2xl font-semibold mb-6 text-emerald-300">Create New Product</h2>
 
-      <form onSubmit={handleSubmit}>
+      <form className="space-y-4" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name" className="block text-sm font-medium text-gray-300">
             Product Name
