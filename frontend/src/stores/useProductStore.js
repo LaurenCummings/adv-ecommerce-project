@@ -12,6 +12,10 @@ const useProductStore = create((set) => ({
         set({ loading: true });
         try {
             const res = await axios.post("/products", productData);
+            set((prevState) => ({
+                products: [...prevState.products, res.data],
+                loading: false,
+            }));
         } catch (error) {
 
         }
