@@ -19,7 +19,7 @@ function CreateProductForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(newProduct);
+    createProduct(newProduct);
   }
 
   const handleImageChange = (e) => {
