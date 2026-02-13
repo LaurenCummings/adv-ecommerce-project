@@ -28,6 +28,8 @@ function CreateProductForm() {
       reader.onloadend = () => {
         setNewProduct({ ...newProduct, image: reader.result });
       }
+
+      reader.readAsDataURL(file);
     }
   }
 
