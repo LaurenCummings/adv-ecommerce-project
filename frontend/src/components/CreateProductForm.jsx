@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { PlusCircle, Upload, Loader } from "lucide-react";
+import { useProductStore } from "../stores/useProductStore";
 
 const categories = ["jean", "t-shirt", "shoe", "glasses", "jacket", "suit", "bag"];
 
