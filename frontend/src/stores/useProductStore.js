@@ -18,6 +18,7 @@ const useProductStore = create((set) => ({
             }));
         } catch (error) {
             toast.error(error.response.data.error);
+            set({ loading: false });
         }
     } 
 }))
