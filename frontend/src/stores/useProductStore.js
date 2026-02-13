@@ -10,5 +10,10 @@ const useProductStore = create((set) => ({
 
     createProduct: async(productData) => {
         set({ loading: true });
+        try {
+            const res = await axios.post("/products", productData);
+        } catch (error) {
+
+        }
     } 
 }))
