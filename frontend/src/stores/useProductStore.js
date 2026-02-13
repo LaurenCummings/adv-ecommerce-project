@@ -3,5 +3,6 @@ import toast from "react-hot-toast";
 import axios from "../lib/axios";
 
 const useProductStore = create((set) => ({
-    
+    products: [],
+    setProducts: (products) => set({ products })
 }))
