@@ -4,5 +4,7 @@ import axios from "../lib/axios";
 
 const useProductStore = create((set) => ({
     products: [],
+    loading: false,
+    
     setProducts: (products) => set({ products })
 }))
