@@ -18,7 +18,7 @@ function CreateProductForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    createProduct(newProduct);
+    await createProduct(newProduct);
   }
 
   const handleImageChange = (e) => {
