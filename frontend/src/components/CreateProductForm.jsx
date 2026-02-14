@@ -16,7 +16,7 @@ function CreateProductForm() {
 
   const { createProduct, loading } = useProductStore();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     createProduct(newProduct);
   }
