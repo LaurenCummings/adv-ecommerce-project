@@ -18,9 +18,13 @@ function CreateProductForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await createProduct(newProduct);
-    setNewProduct({ name: "", description: "", price: "", category: "", image: ""});
-  }
+    try {
+      await createProduct(newProduct);
+      setNewProduct({ name: "", description: "", price: "", category: "", image: ""});      
+    } catch {
+
+    }
+  };
 
   const handleImageChange = (e) => {
     const file = e.target.files[0];
