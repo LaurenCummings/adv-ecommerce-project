@@ -8,7 +8,7 @@ export const useProductStore = create((set) => ({
 
     setProducts: (products) => set({ products }),
 
-    createProduct: async(productData) => {
+    createProduct: async (productData) => {
         set({ loading: true });
         try {
             const res = await axios.post("/products", productData);
@@ -20,5 +20,9 @@ export const useProductStore = create((set) => ({
             toast.error(error.response.data.error);
             set({ loading: false });
         }
-    } 
+    },
+    
+    deleteProduct: async (id) => {
+
+    }
 }))
