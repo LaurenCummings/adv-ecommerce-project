@@ -24,6 +24,11 @@ export const useProductStore = create((set) => ({
 
     fetchAllProducts: async () => {
         set({ loading: true });
+        try {
+
+        } catch (error) {
+            
+        }
     },
     
     deleteProduct: async (id) => {
