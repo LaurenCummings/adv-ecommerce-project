@@ -24,5 +24,9 @@ export const useProductStore = create((set) => ({
     
     deleteProduct: async (id) => {
 
-    }
+    },
+
+    toggleFeaturedProduct: async (id) => {
+
+    },
 }))
