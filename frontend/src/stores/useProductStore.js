@@ -21,6 +21,10 @@ export const useProductStore = create((set) => ({
             set({ loading: false });
         }
     },
+
+    fetchAllProducts: async () => {
+
+    },
     
     deleteProduct: async (id) => {
 
