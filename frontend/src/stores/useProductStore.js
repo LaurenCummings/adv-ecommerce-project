@@ -25,9 +25,9 @@ export const useProductStore = create((set) => ({
     fetchAllProducts: async () => {
         set({ loading: true });
         try {
-
+            const response = await axios.get("/products");
         } catch (error) {
-            
+
         }
     },
     
