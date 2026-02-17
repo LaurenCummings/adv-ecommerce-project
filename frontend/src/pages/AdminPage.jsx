@@ -14,6 +14,7 @@ const tabs = [
 
 function AdminPage() {
   const [activeTab, setActiveTab] = useState("create");
+  const { fetchAllProducts } = useProductStore();
 
   return (
     <div className="min-h-screen bg-gray-900 text-white relative overflow-hidden">
