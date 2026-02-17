@@ -3,7 +3,7 @@ import { Trash, Star } from "lucide-react";
 import { useProductStore } from "../stores/useProductStore";
 
 function ProductsList() {
-  const { deleteProduct } = useProductStore();
+  const { deleteProduct, toggleFeaturedProduct } = useProductStore();
 
   return (
     <div>ProductsList</div>
