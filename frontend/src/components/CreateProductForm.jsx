@@ -20,7 +20,7 @@ function CreateProductForm() {
     e.preventDefault();
     try {
       await createProduct(newProduct);
-      setNewProduct({ name: "", description: "", price: "", category: "", image: ""});      
+      setNewProduct({ name: "", description: "", price: "", category: "", image: ""}); 
     } catch {
       console.log("error creating a product");
     }
