@@ -7,8 +7,8 @@ function ProductsList() {
   const { deleteProduct, toggleFeaturedProduct, products, fetchAllProducts } = useProductStore();
 
   useEffect(() => {
-
-  },[]);
+    fetchAllProducts();
+  }, [fetchAllProducts]);
 
   return (
     <div>ProductsList</div>
