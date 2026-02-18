@@ -4,7 +4,7 @@ import { useProductStore } from "../stores/useProductStore";
 import { useEffect } from "react";
 
 function ProductsList() {
-  const { deleteProduct, toggleFeaturedProduct, products } = useProductStore();
+  const { deleteProduct, toggleFeaturedProduct, products, fetchAllProducts } = useProductStore();
 
   return (
     <div>ProductsList</div>
