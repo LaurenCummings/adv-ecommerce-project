@@ -9,6 +9,8 @@ function ProductsList() {
   useEffect(() => {
     fetchAllProducts();
   }, [fetchAllProducts]);
+  
+  console.log("products", products);
 
   return (
     <div>ProductsList</div>
