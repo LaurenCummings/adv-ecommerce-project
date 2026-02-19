@@ -14,7 +14,7 @@ function ProductsList() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
-      <table>
+      <table className="min-w-full divide-y divide-gray-700">
 
       </table>
     </motion.div>
