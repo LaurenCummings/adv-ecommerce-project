@@ -14,9 +14,11 @@ function ProductsList() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
+      <table>
 
+      </table>
     </motion.div>>
-  )
-}
+  );
+};
 
 export default ProductsList
