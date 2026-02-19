@@ -8,7 +8,9 @@ function ProductsList() {
   console.log("products", products);
 
   return (
-    <div>ProductsList</div>
+    <motion.div>
+      
+    </motion.div>>
   )
 }
 
