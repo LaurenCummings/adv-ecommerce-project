@@ -15,8 +15,8 @@ function ProductsList() {
       transition={{ duration: 0.8 }}
     >
       <table className="min-w-full divide-y divide-gray-700">
-        <thead>
-          
+        <thead className="bg-gray-700">
+
         </thead>
 
       </table>
