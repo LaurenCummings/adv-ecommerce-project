@@ -8,8 +8,10 @@ function ProductsList() {
   console.log("products", products);
 
   return (
-    <motion.div>
-      
+    <motion.div
+      className="bg-gray-800 shadow-lg rounded-lg overflow-hidden max-w-4xl mx-auto"
+    >
+
     </motion.div>>
   )
 }
