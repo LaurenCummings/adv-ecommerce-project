@@ -5,10 +5,6 @@ import { useEffect } from "react";
 
 function ProductsList() {
   const { deleteProduct, toggleFeaturedProduct, products, fetchAllProducts } = useProductStore();
-
-  useEffect(() => {
-    fetchAllProducts();
-  }, [fetchAllProducts]);
   
   console.log("products", products);
 
