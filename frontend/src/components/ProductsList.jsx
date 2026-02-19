@@ -17,7 +17,7 @@ function ProductsList() {
       <table>
 
       </table>
-    </motion.div>>
+    </motion.div>
   );
 };
 
