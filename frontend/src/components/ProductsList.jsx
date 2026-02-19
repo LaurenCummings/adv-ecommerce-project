@@ -16,6 +16,9 @@ function ProductsList() {
     >
       <table className="min-w-full divide-y divide-gray-700">
         <thead className="bg-gray-700">
+          <tr>
+            
+          </tr>
 
         </thead>
 
