@@ -58,6 +58,11 @@ function ProductsList() {
         </thead>
 
         <tbody className="bg-gray-800 divide-y divide-gray-700">
+          { products?.map((product) => (
+            <tr>
+              
+            </tr>
+          ))}
 
         </tbody>
 
