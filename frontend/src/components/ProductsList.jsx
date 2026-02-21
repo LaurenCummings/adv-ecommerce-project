@@ -57,8 +57,8 @@ function ProductsList() {
 
         </thead>
 
-        <tbody>
-          
+        <tbody className="bg-gray-800 divide-y divide-gray-700">
+
         </tbody>
 
       </table>
