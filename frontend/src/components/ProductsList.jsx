@@ -57,6 +57,10 @@ function ProductsList() {
 
         </thead>
 
+        <tbody>
+          
+        </tbody>
+
       </table>
     </motion.div>
   );
