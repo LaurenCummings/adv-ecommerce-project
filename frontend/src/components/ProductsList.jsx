@@ -81,7 +81,9 @@ function ProductsList() {
                 <div className="text-sm text-gray-300">{product.category}</div>
               </td>
               <td className="px-6 py-4 whitespace-nowrap">
-                <button>
+                <button
+                  onClick={() => toggleFeaturedProduct(product._id)}
+                >
                   <Star className="h-5 w-5" />
                 </button>
               </td>
