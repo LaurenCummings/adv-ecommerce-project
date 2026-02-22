@@ -70,7 +70,7 @@ function ProductsList() {
                     />
                   </div>
                   <div className="ml-4">
-                    <div className="text-sm font-medium text-white"></div>
+                    <div className="text-sm font-medium text-white">{product.name}</div>
                   </div>
                 </div>
               </td>
