@@ -59,7 +59,7 @@ function ProductsList() {
 
         <tbody className="bg-gray-800 divide-y divide-gray-700">
           { products?.map((product) => (
-            <tr>
+            <tr key={product._id} className="hover:bg-gray-700">
               
             </tr>
           ))}
