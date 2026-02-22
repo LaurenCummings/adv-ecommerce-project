@@ -69,6 +69,9 @@ function ProductsList() {
                       alt={product.name}
                     />
                   </div>
+                  <div>
+                    
+                  </div>
                 </div>
               </td>
             </tr>
