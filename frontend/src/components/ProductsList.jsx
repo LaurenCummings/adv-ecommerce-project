@@ -64,7 +64,7 @@ function ProductsList() {
                 <div className="flex items-center">
                   <div className="shrink-0 h-10 w-10">
                     <img 
-                      
+                      className="h-10 w-10 rounded-full object-cover"
                     />
                   </div>
                 </div>
