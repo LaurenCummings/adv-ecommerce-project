@@ -75,7 +75,7 @@ function ProductsList() {
                 </div>
               </td>
               <td>
-                
+                <div></div>
               </td>
             </tr>
           ))}
