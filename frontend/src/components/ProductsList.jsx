@@ -81,7 +81,9 @@ function ProductsList() {
                 <div className="text-sm text-gray-300">{product.category}</div>
               </td>
               <td>
-                
+                <button>
+                  
+                </button>
               </td>
             </tr>
           ))}
