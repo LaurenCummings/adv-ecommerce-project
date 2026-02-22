@@ -80,6 +80,9 @@ function ProductsList() {
               <td className="px-6 py-4 whitespace-nowrap">
                 <div className="text-sm text-gray-300">{product.category}</div>
               </td>
+              <td>
+                
+              </td>
             </tr>
           ))}
 
