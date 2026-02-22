@@ -75,7 +75,7 @@ function ProductsList() {
                 </div>
               </td>
               <td className="px-6 py-4 whitespace-nowrap">
-                <div></div>
+                <div>${product.price.toFixed(2)}</div>
               </td>
             </tr>
           ))}
