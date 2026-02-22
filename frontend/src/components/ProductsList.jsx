@@ -61,7 +61,7 @@ function ProductsList() {
           { products?.map((product) => (
             <tr key={product._id} className="hover:bg-gray-700">
               <td className="px-6 py-4 whitespace-nowrap">
-                <div>
+                <div className="flex items-center">
                   <div>
 
                   </div>
