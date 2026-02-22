@@ -74,7 +74,7 @@ function ProductsList() {
                   </div>
                 </div>
               </td>
-              <td>
+              <td className="px-6 py-4 whitespace-nowrap">
                 <div></div>
               </td>
             </tr>
