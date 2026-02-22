@@ -69,8 +69,8 @@ function ProductsList() {
                       alt={product.name}
                     />
                   </div>
-                  <div>
-                    
+                  <div className="ml-4">
+
                   </div>
                 </div>
               </td>
