@@ -8,6 +8,10 @@ function ProductsList() {
   console.log("products", products);
 
   function deleteProduct() {
+
+  }
+
+  function toggleFeaturedProduct() {
     
   }
 
