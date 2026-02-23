@@ -101,7 +101,7 @@ function ProductsList() {
                   onClick={() => deleteProduct(product._id)}
                   className="text-red-400 hover:text-red-300"
                 >
-                
+                  <Trash />
                 </button>  
               </td>
             </tr>
