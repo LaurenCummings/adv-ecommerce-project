@@ -12,7 +12,7 @@ function ProductsList() {
   }
 
   function toggleFeaturedProduct() {
-    
+
   }
 
   return (
@@ -99,6 +99,7 @@ function ProductsList() {
               <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
                 <button
                   onClick={() => deleteProduct(product._id)}
+                  className="text-red-400 hover:text-red-300"
                 >
                 
                 </button>  
