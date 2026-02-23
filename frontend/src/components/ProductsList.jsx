@@ -88,7 +88,7 @@ function ProductsList() {
                   <Star className="h-5 w-5" />
                 </button>
               </td>
-              <td>
+              <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
                 
               </td>
             </tr>
