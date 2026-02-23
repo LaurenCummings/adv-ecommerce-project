@@ -7,6 +7,10 @@ function ProductsList() {
   
   console.log("products", products);
 
+  function deleteProduct() {
+    
+  }
+
   return (
     <motion.div
       className="bg-gray-800 shadow-lg rounded-lg overflow-hidden max-w-4xl mx-auto"
