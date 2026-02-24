@@ -42,6 +42,7 @@ export const useProductStore = create((set) => ({
         set({ loading: true });
         try {
             const response = await axios.patch(`/products/${productId}`);
+            // this will update the isFeatured prop of the product
         } catch (error) {
 
         }
