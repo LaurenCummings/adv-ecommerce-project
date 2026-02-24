@@ -50,7 +50,7 @@ export const useProductStore = create((set) => ({
             loading: false,
         }))
         } catch (error) {
-
+            set({ loading: false });
         }
     },
 }))
