@@ -47,6 +47,7 @@ export const useProductStore = create((set) => ({
                 products: prevProducts.products.map((product) =>
                     product._id === productId ? { ...product, isFeatured: response.data.isFeatured } : product
             ),
+            loading: false,
         }))
         } catch (error) {
 
