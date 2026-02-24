@@ -39,10 +39,11 @@ export const useProductStore = create((set) => ({
     },
 
     toggleFeaturedProduct: async (id) => {
+        set({ loading: true });
         try {
 
         } catch (error) {
-            
+
         }
     },
 }))
