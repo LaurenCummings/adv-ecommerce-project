@@ -35,7 +35,7 @@ export const useProductStore = create((set) => ({
     },
     
     deleteProduct: async (productId) => {
-
+        set({ loading: true });
     },
 
     toggleFeaturedProduct: async (productId) => {
