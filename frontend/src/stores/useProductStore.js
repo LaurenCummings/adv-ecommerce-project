@@ -36,6 +36,11 @@ export const useProductStore = create((set) => ({
     
     deleteProduct: async (productId) => {
         set({ loading: true });
+        try {
+
+        } catch (error) {
+
+        }
     },
 
     toggleFeaturedProduct: async (productId) => {
