@@ -37,7 +37,7 @@ export const useProductStore = create((set) => ({
     deleteProduct: async (productId) => {
         set({ loading: true });
         try {
-
+            await axios.delete(`/products/${productId}`);
         } catch (error) {
             set({ loading: false });
             toast.error(error.response.data.error || "Failed to delete product");
