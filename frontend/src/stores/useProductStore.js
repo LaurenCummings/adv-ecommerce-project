@@ -34,7 +34,7 @@ export const useProductStore = create((set) => ({
         }
     },
     
-    deleteProduct: async (id) => {
+    deleteProduct: async (productId) => {
 
     },
 
