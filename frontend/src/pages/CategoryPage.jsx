@@ -1,5 +1,6 @@
+import React from 'react'
 
-const CategoryPage = () => {
+function CategoryPage() {
   return (
     <div>CategoryPage</div>
   )
