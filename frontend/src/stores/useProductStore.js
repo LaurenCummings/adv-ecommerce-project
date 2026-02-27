@@ -35,8 +35,8 @@ export const useProductStore = create((set) => ({
     },
 
     fetchProductsByCategory: async (category) => {
-        
-    }
+
+    },
     
     deleteProduct: async (productId) => {
         set({ loading: true });
