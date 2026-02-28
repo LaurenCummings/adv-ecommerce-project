@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 
 function CategoryPage() {
   const { fetchProductsByCategory, products } = useProductStore();
+  const { category } = useParams();
 
   useEffect(() => {
     fetchProductsByCategory("shoes");
