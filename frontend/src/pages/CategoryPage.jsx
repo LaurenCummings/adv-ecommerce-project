@@ -8,6 +8,8 @@ function CategoryPage() {
     fetchProductsByCategory("shoes");
   }, [fetchProductsByCategory])
 
+  console.log("products:", products);
+
   return (
     <div>CategoryPage</div>
   )
