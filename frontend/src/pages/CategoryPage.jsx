@@ -1,4 +1,5 @@
-import { useProductStore } from "../stores/useProductStore"
+import { useProductStore } from "../stores/useProductStore";
+import { useEffect } from "react";
 
 function CategoryPage() {
   const { fetchProductsByCategory } = useProductStore();
