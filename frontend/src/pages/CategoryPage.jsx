@@ -2,7 +2,7 @@ import { useProductStore } from "../stores/useProductStore";
 import { useEffect } from "react";
 
 function CategoryPage() {
-  const { fetchProductsByCategory } = useProductStore();
+  const { fetchProductsByCategory, products } = useProductStore();
 
   useEffect(() => {
     fetchProductsByCategory("shoes");
