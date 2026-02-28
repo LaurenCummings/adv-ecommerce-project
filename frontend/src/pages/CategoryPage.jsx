@@ -5,7 +5,7 @@ function CategoryPage() {
   const { fetchProductsByCategory } = useProductStore();
 
   useEffect(() => {
-
+    fetchProductsByCategory("shoes");
   }, [fetchProductsByCategory])
 
   return (
